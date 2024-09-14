@@ -1,0 +1,3 @@
+[console_scripts]
+arr = arr.__main__:main
+

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: arr
+Version: 0.2.1
+Summary: Astronomic Reference Resolver
+Home-page: https://github.com/muma7490/ARR
+Author: Marco Müllner
+Author-email: muellnermarco@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: jupyter
+Requires-Dist: lightkurve
+Requires-Dist: astropy
+Requires-Dist: astroquery
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: tess-point
+Requires-Dist: ads
+Requires-Dist: eleanor
+Requires-Dist: texttable
+Requires-Dist: everest-pipeline
+
+# ARR!
+
+

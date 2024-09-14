@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: george
+Version: 0.4.3
+Summary: Blazingly fast Gaussian Processes for regression.
+Author-Email: Daniel Foreman-Mackey <foreman.mackey@gmail.com>
+License: Copyright (c) 2012-2021 Daniel Foreman-Mackey and contributors
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of
+        this software and associated documentation files (the "Software"), to deal in
+        the Software without restriction, including without limitation the rights to
+        use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+        the Software, and to permit persons to whom the Software is furnished to do so,
+        subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+        FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+        COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+        IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+        CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Project-URL: Homepage, https://github.com/dfm/george
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: scipy
+Description-Content-Type: text/x-rst
+
+George
+======
+
+**Fast and flexible Gaussian Process regression in Python.**
+
+.. image:: https://img.shields.io/badge/GitHub-dfm%2Fgeorge-blue.svg?style=flat
+    :target: https://github.com/dfm/george
+.. image:: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+    :target: https://github.com/dfm/george/blob/main/LICENSE
+.. image:: https://github.com/dfm/george/workflows/Tests/badge.svg?style=flat
+    :target: https://github.com/dfm/george/actions?query=workflow%3ATests
+.. image:: https://coveralls.io/repos/github/dfm/george/badge.svg?branch=main&style=flat
+    :target: https://coveralls.io/github/dfm/george?branch=main
+.. image:: https://readthedocs.org/projects/george/badge/?version=latest
+    :target: http://george.readthedocs.io/en/latest/?badge=latest
+
+Read the documentation at: `george.readthedocs.io <http://george.readthedocs.io/>`_.

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: k2plr
+Version: 0.2.9
+Summary: Tools for working with Kepler and K2 data in Python
+Home-page: https://github.com/rodluger/k2plr
+Author: Daniel Foreman-Mackey (forked by Rodrigo Luger)
+Author-email: rodluger@uw.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: six
+
+
+A fork of the `kplr` package with custom `K2` functionality.
+Enables access to the `K2` raw and de-trended light curves.
+
+

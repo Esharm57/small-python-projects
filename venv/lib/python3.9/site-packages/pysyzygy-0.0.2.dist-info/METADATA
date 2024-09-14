@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pysyzygy
+Version: 0.0.2
+Summary: Transit modeling in Python
+Home-page: http://github.com/rodluger/pysyzygy
+Author: Rodrigo Luger
+Author-email: rodluger@uw.edu
+License: MIT
+Keywords: exoplanets transits
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Dist: numpy (>=1.8)
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+
+A fast and general planet transit (syzygy) code written in C and in Python.
+Pysyzygy computes fast lightcurves for the most general case of a massive, 
+eccentric planet orbiting a limb-darkened star. The code is based
+on the Mandel & Agol (2002) transit model.
+
+
