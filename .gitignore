@@ -1,2 +1,13 @@
-.DS_Store
+# Ignore virtual environment
 venv/
+env/
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Ignore OS-specific files (e.g., for macOS)
+.DS_Store
