@@ -63,8 +63,3 @@ def check(length, word, chances):
 
 
 hangman()
-
-
-
-
-
