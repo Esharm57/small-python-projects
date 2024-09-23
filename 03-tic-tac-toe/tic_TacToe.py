@@ -45,7 +45,10 @@ def two_players():
                 print("It's a draw!")
                 break
 
-            current_player = "O" if current_player == "X" else current_player = "X"
+            if current_player == "X":
+                current_player = "O" 
+            else:
+                current_player = "X"
         except (IndexError, ValueError):
             print("Invalid input. Please enter row and column as integers between 0 and 2.")
 
